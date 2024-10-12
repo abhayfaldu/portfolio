@@ -9,8 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        worksans: ["Work Sans", "sans-serif"],
+        poppins: ['Poppins', "sans-serif"]
       },
     },
   },
